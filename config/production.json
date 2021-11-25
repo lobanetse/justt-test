@@ -1,0 +1,5 @@
+{
+  "host": "localhost",
+  "port": 60041,
+  "justMongoUrl": "mongodb://localhost:27017/"
+}

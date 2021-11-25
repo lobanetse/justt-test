@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@db/*": ["db/*"],
+      "@common/*": ["common/*"],
+      "@root/*": ["*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
